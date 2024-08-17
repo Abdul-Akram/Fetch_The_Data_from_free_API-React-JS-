@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.B-div{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  justify-content: space-around;
+}
+button{
+  width: 30%;
+}
+
+.selected{
+  background-color: #af4c4c;
+  color: aliceblue;
+}

@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect } from "react";
+import Toggle from "./Toggle";
+import Content from './Content'
 
 function App() {
+  const [items, setItems] = useState([]);
+  const [type, setType] = useState('users');
+
+  useEffect(() => {
+    console.log(type);
+    const fetchItems = async () => {
+      try {
+        const response = await fetch(`https://jsonplaceholder.typicode.com/${type}`);
+        const data = await response.json();
+        setItems(Array.isArray(data) ? data : [data]);
+      } catch (e) {
+        console.log(e);
+      }
+    };
+
+    fetchItems();
+  }, [type]);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Toggle type={type} setType={setType} />
+      <Content items={items} setItems={setItems} />
+
     </div>
   );
 }
