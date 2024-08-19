@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Abdul-Akram/Fetch_The_Data_from_free_API-React-JS-.git/static/css/main.69f7a58d.css",
-    "main.js": "/Abdul-Akram/Fetch_The_Data_from_free_API-React-JS-.git/static/js/main.fb9f1f10.js",
-    "static/js/453.42bd1ccc.chunk.js": "/Abdul-Akram/Fetch_The_Data_from_free_API-React-JS-.git/static/js/453.42bd1ccc.chunk.js",
-    "index.html": "/Abdul-Akram/Fetch_The_Data_from_free_API-React-JS-.git/index.html",
-    "main.69f7a58d.css.map": "/Abdul-Akram/Fetch_The_Data_from_free_API-React-JS-.git/static/css/main.69f7a58d.css.map",
-    "main.fb9f1f10.js.map": "/Abdul-Akram/Fetch_The_Data_from_free_API-React-JS-.git/static/js/main.fb9f1f10.js.map",
-    "453.42bd1ccc.chunk.js.map": "/Abdul-Akram/Fetch_The_Data_from_free_API-React-JS-.git/static/js/453.42bd1ccc.chunk.js.map"
+    "main.css": "/Fetch_The_Data_from_free_API-React-JS-/static/css/main.69f7a58d.css",
+    "main.js": "/Fetch_The_Data_from_free_API-React-JS-/static/js/main.7dada9af.js",
+    "static/js/453.42bd1ccc.chunk.js": "/Fetch_The_Data_from_free_API-React-JS-/static/js/453.42bd1ccc.chunk.js",
+    "index.html": "/Fetch_The_Data_from_free_API-React-JS-/index.html",
+    "main.69f7a58d.css.map": "/Fetch_The_Data_from_free_API-React-JS-/static/css/main.69f7a58d.css.map",
+    "main.7dada9af.js.map": "/Fetch_The_Data_from_free_API-React-JS-/static/js/main.7dada9af.js.map",
+    "453.42bd1ccc.chunk.js.map": "/Fetch_The_Data_from_free_API-React-JS-/static/js/453.42bd1ccc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69f7a58d.css",
-    "static/js/main.fb9f1f10.js"
+    "static/js/main.7dada9af.js"
   ]
 }
